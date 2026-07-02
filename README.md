@@ -4,20 +4,6 @@ sm64coopdx is an online multiplayer project for the Super Mario 64 PC port that 
 
 Feel free to report bugs or contribute to the project.
 
-## Initial Goal (Accomplished)
-Create a mod for the PC port where multiple people can play together online.
-
-Unlike previous multiplayer projects, this one synchronizes enemies and events. This allows players to interact with the same world at the same time.
-
-Interestingly enough though, the goal of the project has slowly evolved over time from simply just making a Super Mario 64 multiplayer mod to constantly maintaining and improving the project (notably the Lua API.)
-
-## Documentation
-
-sm64coopdx is moddable via Lua, similar to Roblox and Garry's Mod's Lua APIs. To get started, click [here](docs/lua/lua.md) to see the Lua documentation. If you want to contribute to the repo, you can view the C documentation [here](docs/c/c.md).
-
-## Wiki
-The wiki is made using GitHub's wiki feature, you can go to the wiki tab or click [here](https://github.com/coop-deluxe/sm64coopdx/wiki).
-
 ## Nintendo Switch Port (`nx-port` branch)
 This branch adds a homebrew Nintendo Switch port (devkitA64/libnx) with native LDN local wireless multiplayer, alongside the existing PC build.
 
@@ -30,6 +16,3 @@ python3 extract_assets.py us
 This regenerates all asset files listed in `assets.json` from your ROM, including the two removed here - the build system already treats extracted assets as untracked/gitignored, so this only needs to be run once per checkout.
 
 Switch build: see `Makefile.nx` (`make -f Makefile.nx`), requires devkitA64/libnx.
-
-## Community
-We have an official Discord server open to the public [here](https://discord.gg/TJVKHS4).
